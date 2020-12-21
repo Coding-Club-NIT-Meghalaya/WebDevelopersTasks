@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content= "width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>Task 1</title>
+</head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {font-family: Arial, Helvetica, sans-serif;
+background:WhiteSmoke;}
+input{
+border:none;}
+.input-field {
+ padding: 10px;
+  outline: none;
+}
+.input-container {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  width: 70%;
+  margin-bottom: 15px;
+  border-bottom:3px solid #D3D3D3;
+}
+.btn {
+  background-color:DodgerBlue;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.9;
+  align:center;
+ 
+}
+
+.box {
+  width:auto;
+  padding:50px;
+  margin: 50px;
+  background:white;
+  border-radius:20px;
+  box-shadow:5px 10px 18px #888888;}
+  
+.flex-container{
+display:ms-flexbox;  
+  display:flex;
+  flex-direction:row;
+  flex-flow: row wrap;}
+  
+  .flex-container > div {
+  
+  line-height: 50px;
+  font-size: 20px;
+  width: 50%;
+}
+
+.a{
+float:right;
+ width:100%;
+ font size:20px;}
+ 
+
+</style>
+<body>
+<div class="box">
+<form>
+<div class="flex-container">
+<div>
+<h1>Sign up</h1>
+<div class="input-container">
+ <i class="fa fa-user " style='font-size:24px'></i>
+ <input class="input-field" type="text" placeholder="Username" name="usrnm">
+</div>
+<div class="input-container">
+ <i class="fa fa-envelope icon" style='font-size:24px'></i>
+ <input class="input-field" type="text" placeholder="Email" name="email">
+ </div>
+ <div class="input-container">
+ <i class="fa fa-lock icon" style='font-size:24px'></i>
+ <input class="input-field" type="password" placeholder="Password" name="psw"></div>
+ <div class="input-container">
+  <i class="fa fa-lock icon" style='font-size:24px'></i>
+ <input class="input-field" type="password" placeholder="Repeat your password" name="rpsw"></div>
+ <input type="checkbox" name="check">I agree to all statements in <a href="#">Terms of service</a><br>
+ <input class="btn"type="submit" value="Register" style="font-size:15px"style="float:left">
+ </div>
+ <div>
+<img src="C:\Users\21ayu\OneDrive\Desktop\ode\image.jpeg"width="470" height="350"><div class="a"><center>
+<a href="#">I am already a member</a></center></div>
+</div>
+</div>
+</form>
+</div>
+</body>
+</html>
