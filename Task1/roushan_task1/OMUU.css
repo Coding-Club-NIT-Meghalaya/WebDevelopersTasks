@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #6b49492e;
+}
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 80%;
+    width: 80%; 
+    
+    background-color:whitesmoke;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 5px 5px 45px rgb(197, 195, 195);
+}
+.login, .picture{
+    width: 50%;
+    height: 100%;
+    border-radius: 25px;
+}
+.login{
+    
+    padding: 80px;
+}
+.login h2{
+    margin:0  0 10px;
+    font-size: 40px;
+    font-weight: 600;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    
+}
+input[name="txt"], input:focus{
+    padding: 10px 20px;
+    border: none; 
+}
+span{
+    border-bottom: 2px solid darkgray;
+    margin: 10px 0;
+}
+b{
+    font-weight: 110;
+    text-decoration: underline;
+}
+
+form input[type="submit"]{
+               margin-top: 40px;
+                padding: 15px 30px;
+                border-radius: 5px;
+                border: none;
+                color: white;
+                background-color: rgb(87, 87, 177);
+                width: 120px;
+}
+.picture{
+    
+    display: flex;
+    flex-direction: column;
+}
+a{
+    margin: 0 0 90px;
+    text-align: center;
