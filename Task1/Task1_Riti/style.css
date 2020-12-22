@@ -1,0 +1,42 @@
+.box{
+    width: 800px;
+    margin: 75px auto 0px auto;
+    border-style:solid  ;
+    border-radius: 5%;
+    border-color:rgb(210,210,210);
+    box-shadow: 5px 5px 50px rgb(190,190,190);
+    
+    padding: 75px 5px 75px 75px;
+
+}
+.pic{
+    margin:0px ;
+    float: right;
+    width: 350px;
+    padding: 0px 35px 0px 0px ;
+    
+}
+Button{
+color: white;
+background-color: blue;
+width: 7pc;
+height: 2pc;
+border-radius: 10px;
+border-color: blue;}
+.input{
+    border-style: none;
+width: 30%;
+    margin: 10px;
+}
+span{
+    border-style: none;
+    border-bottom: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+    
+.line{
+    float: right;
+    padding: 10px 150px 100px 400px ;
+
+}
