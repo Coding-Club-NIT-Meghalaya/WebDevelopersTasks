@@ -1,0 +1,87 @@
+.textbox 
+{
+    background: white;
+    color: black;     
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin : 40px auto 20px auto;
+    border-radius: 15px;
+    box-shadow: 5px 5px 50px rgb(190, 190, 190);
+    padding: 100px; 
+    border: rgb(210, 210, 210) ;
+    border-style: solid;
+    width : 60%; 
+    overflow: hidden;
+}
+
+.form-box
+{   width: 30%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 1px solid black;
+}
+
+.form-box i
+{
+    width: 26px;
+    float: left;
+    text-align: center;
+}
+
+.form-box input
+{   
+    border: none;     
+    outline: none;  
+    background: transparent;
+    color: black;
+    font-size: 16px;
+    height: 20pX;
+    width: 80%;
+    float: left;
+    margin: 0 10px;
+    overflow: hidden;
+    clear: none;
+}
+
+input[type="submit"]
+{
+    background-color: #0658c4; 
+    border: none;
+    border-radius: 35px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+}       
+
+.image img
+{
+    margin: 0px;
+    float: right;
+    width: 500px;
+    padding: 0px 35px 0px 0px;
+    clear: none;
+}
+
+#footer
+{
+    height: 50px;
+}
+#footer-content
+{
+    position: relative;
+    display: flexbox;
+    background-color: transparent;
+    height: 32px;
+    padding: 0px 180px;
+    font-size: 120%;
+    width: auto;
+    float: right;
+    overflow: hidden;
+    clear: none;
+}
