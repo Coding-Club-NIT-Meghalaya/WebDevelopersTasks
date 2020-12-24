@@ -1,0 +1,42 @@
+
+*{
+margin: 0;
+padding: 0;
+}
+h2{
+margin:20px;
+margin-left:0;
+}
+#item1{
+margin:80px;
+padding:10px;
+}
+img{
+margin-top:130px;
+height:300px;
+}
+.container{
+display: flex;
+height: 70%;
+width: 65%;
+margin: 110px;
+transform: translate(-50%, -50%):
+background-color: #ffffff;
+border-radius: 20px;
+box-shadow:  5px 5px 50px rgb(190,190,190);
+}
+ span{
+border:  none;
+border-bottom: 2px solid #121312;
+padding: 8px;
+}
+input{
+border: none;
+}
+button{
+width: 90px;
+height: 40px;
+border-radius: 3px;
+background-color: rgb(50,50,200);
+color: white;
+}
