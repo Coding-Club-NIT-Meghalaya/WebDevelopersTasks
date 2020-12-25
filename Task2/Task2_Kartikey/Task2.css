@@ -1,0 +1,151 @@
+*{
+    font-family: 'Lato','Ariel','sans-serif';
+}
+
+.container{
+    position: absolute;
+    border-radius: 1em;
+    background-color: #fff;
+    display: flex;
+    flex: 1;
+    height: 95%;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+}
+.container > div{
+    text-align: center;
+    font-size: 1em;
+    color: #45b2fa;
+    flex:1;
+    align-items: center;
+    justify-content: center;
+}
+.container > div:nth-child(2){
+    border-right: 0.01px solid #d7eaff;
+    border-left: 0.01px solid  #d7eaff;
+}
+.c1{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+}
+.c1 > div{
+    width: 60%;
+    height: 100%;
+    color:  #348efe;
+    flex-wrap: wrap;
+}
+.pic{
+    width: 110%;
+    height: 110%;
+}
+
+p{
+    font-size: 1.2em;
+    font-weight: 600;
+    color: rgb(160, 160, 160);
+    border-bottom: 0.01px solid #d7eaff;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 25%;
+    padding-top: 2%;
+}
+
+.text1{
+    font-size: 0.85em;
+    font-weight: 600;
+    color:  #348efe;
+    border-bottom: 0.01px solid #d7eaff;
+    width: 100%;
+    padding-bottom: 5%;
+    padding-top: 3%;
+}
+
+.text2{
+    color: #016ff9;
+    width: 100%;
+    font-weight: 800;
+    padding-top: 7%;
+    padding-bottom: 8%;
+    font-size: 2em;
+}
+
+html,body{
+    background-color: #60a9ff;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+}
+
+input[type=submit]{
+    width: 8em;
+    background: #fff;
+    border-color: #60a9ff;
+    color: #348efe;
+    font-size: 1.0em;
+    padding: 5%;
+    border-radius: 0.4em;
+    border: 0.01em solid #45b2fa;
+    margin-bottom: 20%;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+input[type=submit]:hover,
+input[type=submit]:active{
+    background: #269aff;
+    color: #fff;
+    box-shadow: 5px 5px 5px rgb(197, 195, 195);
+}
+
+@media all and (max-width: 970px){
+
+input[type=submit]{font-size: 0.8em;
+    width: 7em;}
+p{ font-size: 1.2em;}
+.text1{ font-size: 0.7em;}
+.text2{ font-size: 1.5em; }
+}
+
+@media all and (max-width: 600px){
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        flex: 1;
+    }
+    .container > div{
+        width: 100%;
+        height: 100%;
+        flex-wrap: wrap;
+    }
+    .container > div:nth-child(2){
+        border-right:none;
+        border-left: none;
+    }
+    p{
+        padding-top: 5%;
+        padding-bottom: 15%;
+    } 
+    .text1{
+        font-size: 1.0em;
+        flex-wrap: wrap;
+    }
+    .text2{font-size: 2em;}
+    input[type=submit]{
+        width: 8em;
+        font-size: 1.0em;
+    }
+}
