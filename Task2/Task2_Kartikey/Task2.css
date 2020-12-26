@@ -1,15 +1,13 @@
-*{
-    font-family: 'Lato','Ariel','sans-serif';
-}
 
 .container{
-    position: absolute;
-    border-radius: 1em;
+    border-radius: 0.01em;
     background-color: #fff;
     display: flex;
     flex: 1;
-    height: 95%;
-    width: 80%;
+    max-width: 1250px;
+    height: 100%;
+    width: 100%;
+    text-align: center;
     align-items: center;
     justify-content: center;
 }
@@ -77,15 +75,17 @@ p{
     font-size: 2em;
 }
 
-html,body{
-    background-color: #60a9ff;
+html{
+    font-family: 'Lato','Ariel','sans-serif';
     box-sizing: border-box;
-    height: 100%;
-    width: 100%;
-    display: flex;
     font-size: 18px;
+}
+body{
+    background-color: #60a9ff;
+    display: flex;
     align-items: center;
     justify-content: center;
+    min-height: 100vh;
 }
 
 input[type=submit]{
@@ -98,7 +98,26 @@ input[type=submit]{
     border-radius: 0.4em;
     border: 0.01em solid #45b2fa;
     margin-bottom: 20%;
-    transition: background-color 0.3s, color 0.3s;
+    transition: background-color 0.3s, color 0.3s,box-shadow 0.3s;
+}
+
+a:link,
+a:visited{
+    text-decoration: none;
+    width: 6em;
+    background: #269aff;
+    color: #fff;
+    font-size: 1.0em;
+    padding: 3.5% 5% 3.5% 5%;
+    border-radius: 0.4em;
+    border: 0.01em solid #45b2fa;
+    margin-bottom: 12%;
+    transition: box-shadow 0.3s;
+}
+
+a:hover,
+a:active{
+    box-shadow: 5px 5px 5px rgb(197, 195, 195);
 }
 
 input[type=submit]:hover,
@@ -108,8 +127,8 @@ input[type=submit]:active{
     box-shadow: 5px 5px 5px rgb(197, 195, 195);
 }
 
-@media all and (max-width: 970px){
-
+@media all and (max-width: 1300px){
+.container{max-width: 1100px;}
 input[type=submit]{font-size: 0.8em;
     width: 7em;}
 p{ font-size: 1.2em;}
@@ -117,7 +136,10 @@ p{ font-size: 1.2em;}
 .text2{ font-size: 1.5em; }
 }
 
-@media all and (max-width: 600px){
+@media all and (max-width: 900px){
+    html,body{
+        background-color: #fff;
+    }
 
     .container{
         display: flex;
@@ -144,6 +166,7 @@ p{ font-size: 1.2em;}
         flex-wrap: wrap;
     }
     .text2{font-size: 2em;}
+    a,
     input[type=submit]{
         width: 8em;
         font-size: 1.0em;
