@@ -47,8 +47,8 @@ button{
     border: 1px solid  rgb(45, 134, 185);
     color:  rgb(31, 83, 102);
     background-color: white;
-    width: 130px;
-    height: 40px;
+    max-width: 130px;
+    max- height: 40px;
     font-size: medium;
     margin:25px 0px ;
 }
