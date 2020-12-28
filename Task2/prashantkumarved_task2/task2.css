@@ -1,3 +1,4 @@
+
 html{
     margin:0;
     padding:0;
@@ -8,20 +9,18 @@ body{
     justify-content: center;
     align-items: center;
    
-  
-  
 }
  
 .outer-box{
     width: 100%;
-    min-height: 90vh;
-   max-width: 1400px;
-  
+    min-height: 80vh;
+   max-width: 1100px;
     background-color: white;
     border-radius:15px;
     display:flex;
     text-transform: uppercase;
     justify-content: space-around;
+   margin-top:30px;
     font-family: 'Open Sans', sans-serif;
     text-align:center;
     padding:25px 20px;
@@ -34,9 +33,16 @@ section{
     padding-left:2em;
     padding-right:2em;
     border-right:.004em solid#d7e7fa; 
+   
 }
 section img{
     max-width: 100%;
+}
+.image1{
+    padding-top:2.8em;
+}
+.image3{
+    padding-top:3.8em;
 }
 
 h2{
@@ -45,10 +51,8 @@ h2{
     padding-bottom:2em;
     border-bottom: .004em solid#d7e7fa;
 }
-.headache{
-    padding-top:.01em;
-}
-.kidneyache{
+
+.h2.enterprise{
     padding-top:1.4em;
 }
 h3{
@@ -61,16 +65,32 @@ h1{
     color: #1173ed;
 }
 button{
+    text-decoration:none;
+    transition: 50ms all;
     background-color:white;
     color:#3896e8;
     padding: .7em 1.5em;
     font-size:1.5em;
     border:1px solid #3896e8;
     border-radius:10px;
+    
+}
+.button{
+    text-decoration:none;
+}
+button:hover{
+background-color:#3896e8;
+color:white;
+cursor: pointer;
 }
 .small_team button{
     background-color:#3896e8;
     color:white;
+}
+.small_team button:hover{
+    background-color:#b2f062;
+    color:white;
+    cursor:pointer;
 }
  .enterprise{
     border:none;
@@ -105,7 +125,7 @@ button{
     section img{
         border-top:.004em solid #d7e7fa;
     }
-    .heartattack{
+    .image1{
         border-top:none;
     }
 
