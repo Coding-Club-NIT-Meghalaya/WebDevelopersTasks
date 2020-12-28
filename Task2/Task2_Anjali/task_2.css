@@ -1,0 +1,81 @@
+body{
+    background-color:  rgb(38, 149, 240);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    background-color: white;
+    padding: 15px 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 950px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+img{
+    max-width: 240px;
+    width:100%;
+}
+.box1,.box2{
+    border-bottom: 1px solid rgb(181, 225, 243);
+}
+html{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box; 
+    font-size: 17px;   
+}
+h1{
+    font-size: 1em;
+    color: darkgrey;
+    text-align: center;
+}
+h2{
+    font-size: 0.8em;
+    color: rgb(45, 134, 185);
+    border-top: 1px solid  rgb(236, 233, 233);
+    line-height: 1.6;
+    padding: 15px 0px;
+}
+button{
+    text-transform: uppercase;
+    border-radius: 8%;
+    border: 1px solid  rgb(45, 134, 185);
+    color:  rgb(31, 83, 102);
+    background-color: white;
+    width: 130px;
+    height: 40px;
+    font-size: medium;
+    margin:25px 0px ;
+}
+.box{
+    border-bottom: 1px solid  rgb(236, 233, 233);
+}
+button:hover{
+    background-color: rgb(38, 149, 240);
+    cursor:none;
+}
+label{
+    color:  rgb(52, 154, 212);
+    font-size: 2.5em;
+}
+@media (min-width :900px){
+    .container{
+            flex-direction: row;  
+    }
+    .box1,.box2{
+        border-right:1px solid  rgb(219, 213, 213);
+        border-bottom: none;  
+    }
+    .box1,.box2,.box3{
+        padding: 25px 20px;
+    }
+}
+    
+
+
+

@@ -1,0 +1,112 @@
+html{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color:#3896e8;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   
+  
+  
+}
+ 
+.outer-box{
+    width: 100%;
+    min-height: 90vh;
+   max-width: 1400px;
+  
+    background-color: white;
+    border-radius:15px;
+    display:flex;
+    text-transform: uppercase;
+    justify-content: space-around;
+    font-family: 'Open Sans', sans-serif;
+    text-align:center;
+    padding:25px 20px;
+    
+    letter-spacing: 0.2em;
+    color:#3896e8;
+    
+}
+section{
+    padding-left:2em;
+    padding-right:2em;
+    border-right:.004em solid#d7e7fa; 
+}
+section img{
+    max-width: 100%;
+}
+
+h2{
+    color:grey;
+    padding-top:.5em;
+    padding-bottom:2em;
+    border-bottom: .004em solid#d7e7fa;
+}
+.headache{
+    padding-top:.01em;
+}
+.kidneyache{
+    padding-top:1.4em;
+}
+h3{
+    
+    border-bottom: .004em solid#d7e7fa;
+    padding-bottom: 1em;
+}
+h1{
+    font-size:2.5em;
+    color: #1173ed;
+}
+button{
+    background-color:white;
+    color:#3896e8;
+    padding: .7em 1.5em;
+    font-size:1.5em;
+    border:1px solid #3896e8;
+    border-radius:10px;
+}
+.small_team button{
+    background-color:#3896e8;
+    color:white;
+}
+ .enterprise{
+    border:none;
+   
+}
+
+@media(max-width:751px){
+    .outer-box{
+        flex-direction:column;
+        margin:0;
+        padding:0;
+        letter-spacing: 0;
+    }
+    section{
+        border-right:none;
+    }
+    h2{
+        font-size:1em;
+    }
+    h3{
+        font-size: .8em;
+    }
+    h1{
+        font-size:2em;
+    }
+    button{
+        padding:.9em 1.7em;
+        font-size:1em;
+        margin-bottom:2em;
+    }
+   
+    section img{
+        border-top:.004em solid #d7e7fa;
+    }
+    .heartattack{
+        border-top:none;
+    }
+
+}

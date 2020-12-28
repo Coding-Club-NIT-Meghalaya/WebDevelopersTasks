@@ -1,0 +1,139 @@
+
+body{
+background:CornflowerBlue;
+align-items:center;
+}
+.border{
+  font-family:sans-serif;
+  font-weight:bold;
+  width:auto;
+  height:60%;
+  padding:30px;
+  margin: 50px;
+  background:white;
+  border-radius:20px;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-around;
+  }
+ .container>div{
+	 display:flex;
+	
+	 padding:20px;
+	 justify-content:flex-start;
+	 
+ }
+ .columns>div{
+
+	 justify-content:center;
+ }
+ .column1, .column2,.column3{
+	 text-align:center;
+  float: center;
+  margin:20px;
+  width: 60%;
+  padding: 20px;
+  
+ 
+}
+.column1,.column2{
+	border-right:1px solid LightCyan;
+}
+.level2, .level3,  .level4,.level5{
+	
+	color:DodgerBlue;
+	justify-content:center;
+	
+}
+.image{
+	float:center;
+	display:block;
+	 
+}
+.level1{
+	float:center;
+	display:block; 
+	color:Grey;
+}
+.level2{
+	float:center;
+	display:block;
+	padding:10px;
+	font-size:15px;
+	border-top: 1px solid LightCyan;
+	border-bottom:1px solid LightCyan; 
+	
+	
+}
+.level3 {
+float: center;
+display:block;
+padding:10px;
+font-size:15px;
+border-bottom:1px solid LightCyan; 
+}
+.level4{
+	float:center;
+	display:block;
+	padding:10px;
+	justify-content:center;
+	
+}
+.level5{
+	float:center;
+	display:block;
+	padding:5px;
+	align-items:center;
+	justify-content:center;
+
+}
+.button{
+	float:center;
+	display:block;
+	border:1px solid CornflowerBlue;
+	border-radius:8px;
+	color:CornFlowerBlue;
+	background-color:white;
+	padding:10px;
+	border-width:1;
+	height:1;
+	
+	
+
+}
+.button:hover{
+	background-color:PowderBlue;
+	color:white;
+	border-color:CornFlowerBlue;
+	cursor:none;
+}
+.button:focus{
+	background-color:CornFlowerBlue;
+	color:white;
+	outline:none;
+}
+@media all and (max-width:800px) {
+	
+
+	.columns{
+	display:flex;
+	flex-direction:row;
+	align-items:center;
+	flex:1 1 50%;
+	flex-wrap:wrap;
+	
+		
+	}
+	.column1, .column2,.column3{
+		border-right:none;
+		margin:auto;
+	}
+	
+	
+	.button{
+		text-align:center;
+		width:100px;
+	}
+		
+	
+}

@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #e2e2e22e;
+}
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 80%;
+    width: 80%; 
+    /* margin: auto; */
+    /* this code is created By pranav */
+    background-color: #fff;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 5px 5px 45px rgb(170, 166, 166);
+}
+.login, .picture{
+    width: 50%;
+    height: 100%;
+    border-radius: 25px;
+}
+.login{
+    /* background-color: pink; */
+    padding: 80px;
+}
+.login h2{
+    margin:0  0 10px;
+    font-size: 40px;
+    font-weight: 600;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    
+}
+input[name="txt"]{
+    padding: 10px 20px;
+    border: none; 
+}
+span{
+    border-bottom: 2px solid darkgray;
+    margin: 10px 0;
+}
+b{
+    font-weight: 100;
+    text-decoration: underline;
+}
+
+form input[type="submit"]{
+               margin-top: 40px;
+                padding: 15px 30px;
+                border-radius: 5px;
+                border: none;
+                color: white;
+                background-color: rgb(74, 74, 252);
+                width: 120px;
+}
+/* input[name="chk"]:checked ~  input[type="submit"]{
+    background-color: rgb(74, 74, 252);
+} */
+/* this code is created By pranav */
+.picture{
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+}
+a{
+    margin: 0 0 80px;
+    text-align: center;
+}
