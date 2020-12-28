@@ -1,0 +1,47 @@
+body{
+    background-color:  rgb(0, 153, 255);
+    min-height: 100vh;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+   
+}
+.container{
+    max-width:90%;
+    height:auto ;
+    background-color: white;
+    display:flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+}
+img{
+   width:100%;
+   
+}
+#b1,#b2{
+    border-right:1px solid blue;
+}
+.box{
+    margin:4px;
+    padding:5px 10px;
+}
+.btn{
+    
+    margin:25px 0px ;
+}
+
+/* will show the responsive behaviour below 10,000 px screen width */
+@media (max-width:1000px){
+    .container{
+        flex-direction: column; 
+        min-width: 70%;
+    }
+    #b1,#b2{
+        border-bottom:1px solid blue;
+        border-right:none ;
+    }
+}
