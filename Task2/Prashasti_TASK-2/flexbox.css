@@ -1,0 +1,27 @@
+body{
+	padding: 20px 40px 40px 30px;
+	font-family: noto sans jp;
+	background: rgb(0, 153, 255);
+	
+}
+.big{
+	height: 400px;
+	border: none;
+	display: flex;
+	padding-left: 40px;
+}
+.container1{
+	width:200px;
+	height:200px;
+    background: rgb(248,248,248);
+    }
+.container2{
+	width:200px;
+	height:200px;
+    background: red;
+    }
+.container3{
+	width:200px;
+	height:200px;
+    background: green;
+    }
