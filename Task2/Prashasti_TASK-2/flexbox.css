@@ -21,7 +21,6 @@ body{
     align-items: center;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
-    border-right: 2px solid rgb(220,220,255);
     padding: 15px 40px 10px 40px;
     }
 .container2{
@@ -29,7 +28,7 @@ body{
 	height:589px;
     background: rgb(255,255,255);
     align-items: center;
-    border-right: 2px solid rgb(220,220,255);
+    /* border-right: 2px solid rgb(220,220,255); */
     padding: 36px 40px 0 40px;
     }
 .container3{
@@ -47,24 +46,32 @@ body{
             flex-direction: row; 
     }
     .container1{
-    	padding: 15px 40px 10px 40px;
+        padding: 15px 40px 10px 40px;
+        border-right: 2px solid rgb(220,220,255);
+        border-top-right-radius: 10px;
+        border-bottom-left-radius:0 ;
     	}
     .container2
     {
-    	padding: 36px 40px 0 40px;
+        padding: 36px 40px 0 40px;
+        border-right: 2px solid rgb(220,220,255);
+        border-radius: 0;
     }
     .container3
     {
          padding: 15px 40px 10px 40px;
+         border-right: 2px solid rgb(220,220,255);
+         border-top-right-radius: 0;
+         border-bottom-left-radius: 10px;
     }
     .container1,.container2{
         border-right: 2px solid rgb(220,220,255);
     }}
  .pic{
  	display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
  }
     input[type=submit]
     {
