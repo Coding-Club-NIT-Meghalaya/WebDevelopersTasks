@@ -1,41 +1,58 @@
-
 a{
-    color: black;
+    color:black;
 }
-.container img{
-    width: 470px;
-   
-    float: right;
-}
-button{
-    color: white;
-    background-color: rgb(14, 21, 237);
-    font-weight: 370;
-    font-size: medium;
-    padding: 12px 17px;
-    border-radius: 6px;
-}
-input[type="text"],input[type="password"]{
-    width:350px;
-    height: 40px;
-    margin-bottom: 15px;
-    font-size: 18px;
-    border: 1px white;
-    padding-left: 5px;
-    border-bottom: 1px solid rgb(233, 230, 230);
-}
-.container footer{
-   margin-left: 540px  ;
+body{
+    background-color: rgb(240, 235, 235);
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
 }
 .container{
-    width: 860px;
-    margin-left: 300px;
-    margin-top: 50px;
-    border-radius: 5%;
-    box-shadow: 5px;
-    padding: 73px 5px 75px 75px;
-    border: 1px solid rgb(233, 230, 230);
-    box-shadow: 7px 7px 7px 7px rgb(218, 213, 213);
+    max-width: 900px;
+    width: 100%;
+    max-height: 500px;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-top: 100px;
+    box-shadow: 5px 5px  rgb(197, 194, 194);
+}
+img{
+    max-width: 400px;
+    width:100%;
+}
+.form1{
+    padding: 5px 30px;
+}
+.form2{
+    padding: 20px 0px 5px 30px;
+}
+input[type="text"],input[type="password"]{
+    height: 40px;
+    width: 250px;
+    border:white;
+    border-bottom:1px solid rgb(230, 227, 227);
+    font-size: 20px;
+}
+input[type="checkbox"]{
+    margin: 30px 0px;
+}
+.form2 footer{
+    text-align: center;
+    margin: 20px 10px;
+}
+button{
+    width:100px;
+    height: 30px;
+    color: white;
+    background-color: blue;
+    padding: 15px,0px;
+    border-radius:4px;
+    font-size: medium;
+}
 
-   
-    
+
