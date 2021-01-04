@@ -1,0 +1,58 @@
+body { 
+    background: #0e0e0e;
+    font-family: "Nunito",sans-serif;
+}
+#navbar{
+    background-color:#0f3443;
+}
+#navbar .navbar-brand{
+font-size:1.3rem;
+}
+#navbar .nav-link{
+    font-size:1rem;
+}
+#heading h1{
+    font-weight:500;
+    font-size:4rem;
+}
+#heading{
+    background-color: #bbd2c5;
+    color:#0f3443;
+}
+#prashantkumarved h2{
+background-color: #f3f9a7;
+font-weight: 400;
+color:#0f3443;
+border-radius: 3px;
+font-size:2rem;
+}
+@media(max-width:800px){
+    #heading h1{
+        font-size:3.2rem;
+        font-weight: 450;
+    }
+    #heading h4{
+        font-size:1.3rem;
+    }
+    #prashantkumarved h2{
+        font-size:1.5rem;
+    }
+}
+@media (max-width:600px){
+   .container{
+    margin:auto;
+    
+   }
+   #heading h1{
+       font-weight: 400;
+       font-size:3rem;
+   }
+   #heading h4{
+       font-size:1rem;
+   }
+   #prashantkumarved h2{
+    font-size:1.5rem;
+}
+  
+}
+
