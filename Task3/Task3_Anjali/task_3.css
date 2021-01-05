@@ -14,6 +14,7 @@ h1{
     font-size: 20px;
 }
 .row img{
+<<<<<<< HEAD
     width: 100%;
     background-color:black;
     transition-property: inherit;
@@ -22,6 +23,10 @@ img:hover{
     opacity: 1;
     transform: scale(1.09);
     background-color:rgb(228, 224, 228);
+=======
+   width: 100%;
+   background-color:rgb(228, 225, 227);
+>>>>>>> 9456f78256e6a902771ab246eb4bef85d7877196
 }
 
 
