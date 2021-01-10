@@ -10,7 +10,8 @@ body
     background-color:rgb(196, 193, 196);
     font-size: 20px;
     padding: 10px 15px 10px 15px;
-    object-fit: cover;   
+    object-fit: cover;
+    
 }
 .jumbotron > p
 {
@@ -67,4 +68,4 @@ img:hover
     transform: scale(0.9);
     background-color:transparent;
     flex: 1 1 150px;
-} 
+} */
