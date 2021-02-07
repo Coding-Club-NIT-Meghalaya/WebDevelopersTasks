@@ -6,8 +6,7 @@
 
 This will provide a platform for showcasing your ART work. You will be getting an individual section for your art work and you may also get paid for your work if someone finds interesting.
 
-Feel free to contribute. Create an issue, let others know which algorithm or problem solving method you are planning to add. 
-Fork the repo. And make a PR!
+Feel free to contribute. Create an issue, Fork the repo. And make a PR!
 
 | Name of Website   | Reference Links                    |
 | :-----------------| :--------------------------------: |
