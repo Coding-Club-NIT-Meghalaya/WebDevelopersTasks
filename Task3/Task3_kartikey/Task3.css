@@ -1,0 +1,44 @@
+body{
+    padding-top: 5%;
+}
+
+.jumbotron{
+    color: #2c3e50;
+    background: #ecf0f1;
+}
+.navbar-inverse{
+    background: #2c3e50;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #fff;
+}
+
+.navbar-inverse .navbar-brand{
+    color: #fff;
+}
+
+.thumbnail img{
+    opacity: 0.85; 
+    transform: scale(0.95);
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.thumbnail img:hover{
+    opacity: 1;
+    transform: scale(1.07);
+    box-shadow: 3px 3px 25px rgb(29, 162, 250);
+}
+
+footer{
+    background-color: #333;
+    margin-top: 2%;
+    font-size: 100%;
+    padding-top: 1%;
+    padding-bottom: 0.5%;
+   }
+
+   footer p{
+       color: #888;
+       text-align: center;
+   }

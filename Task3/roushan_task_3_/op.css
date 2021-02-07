@@ -1,0 +1,22 @@
+
+
+.jumbotron{
+    color: #2c503c;
+    background: #ecf0f1;
+}
+
+
+
+
+footer{
+    background-color: #333;
+    margin-top: 2%;
+    font-size: 100%;
+    padding-top: 1%;
+    padding-bottom: 0.5%;
+   }
+
+   footer p{
+       color: #888;
+       text-align: center;
+   }

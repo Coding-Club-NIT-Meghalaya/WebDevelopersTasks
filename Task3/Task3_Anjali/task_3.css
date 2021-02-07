@@ -1,0 +1,27 @@
+body{
+    background: #1e8672;
+    background: -webkit-linear-gradient(to right,#2c3e50,#734b6d);
+    background: linear-gradient(to right,#2c3e50,#734b6d);
+}
+.jumbotron{
+    background-color:rgb(196, 193, 196);
+}
+h1{
+   font-size: 60px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.jumbotron p{
+    font-size: 20px;
+}
+.row img{
+    width: 100%;
+    background-color:black;
+    transition-property: inherit;
+}
+img:hover{
+    opacity: 1;
+    transform: scale(1.09);
+    background-color:rgb(228, 224, 228);
+}
+
+
