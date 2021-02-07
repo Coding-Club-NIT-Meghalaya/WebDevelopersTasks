@@ -34,6 +34,6 @@ Fork the repo. And make a PR!
 * Create a New Pull Request from your forked repository (Click the New Pull Request button located at the top of your repo)
 * Wait for your PR review and merge approval!
 
-__Star this repository to show your support for namanvats__
+__Star this repository to show your support__
 
 Don't forget to include the comments. Feel free to include additional information about the language you chose in your comments too! 
