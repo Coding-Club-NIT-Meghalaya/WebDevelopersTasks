@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Document </title>
+    <style>
+        body{
+            background-color:rgb(20,20,25);
+            color:rgb(240,240,240);
+        }
+    </style>
+</head>
+<body>
+    <h1> TASK - 4 </h1>
+    <h2> <u> TODO LIST </u> </h2>
+    <h3> Instructions </h3>
+    <ul>
+        <li> "new" - To add a  Todo </li>
+        <li> "list" - To List all Todos </li>
+        <li> "quit" - To Quit App and prompt window </li>
+    </ul>
+    <script>       
+        var todos = [];
+var input = prompt("What would you like to add in your Todos list");
+while(input !== "quit")
+{
+    if(input === "list"){
+        console.log("!********!");
+        todos.forEach(function(todo){
+            console.log(todo);
+        });
+        console.log("!*********!");
+        input = prompt("What would you like to add in your Todos list");
+    }
+    else if(input === "new"){
+        var newTodo = prompt("Enter your New To do");
+        todos.push(newTodo);
+        console.log("Added todos !!");
+        input = prompt("What would you like to add in your Todos list");
+    }
+    else{
+        input = prompt("Please follow the instructions. What would you like to add in your Todos list");
+    }
+}
+console.log("Ok, you quit the application !!")
+    </script>
+</body>
+</html>
