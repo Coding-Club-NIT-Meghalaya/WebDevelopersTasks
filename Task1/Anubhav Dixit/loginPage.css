@@ -1,0 +1,108 @@
+/* Resetting CSS */
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body
+{
+    background-color: rgb(233, 233, 233);
+}
+
+/* Styling the container */
+.outerContainer
+{
+    background: white;
+    height: 90vh;
+    width: 1150px;
+    margin: 35px auto;
+    border-radius: 20px;
+}
+
+.innerContainer
+{
+    display: flex;
+    margin-bottom: 0;
+    height: 550px;
+}
+
+#img img
+{
+    height: 400px;
+    margin: 100px 150px 0 150px;
+}
+
+.form
+{
+    width: 400px;
+}
+
+.item h1
+{
+    margin: 80px 0 10px 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+}
+
+.items
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.input
+{
+    margin: 10px 0;
+    background: none;
+    padding: 5px;
+    border: none;
+    outline: none;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 1.1rem;
+}
+
+.item
+{
+    margin: 10px 0 0 100px;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.borderBottom
+{
+    border-bottom: 2px solid black;
+}
+
+#checkBox
+{
+    margin-top: 25px;
+}
+
+.btn
+{
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(45, 143, 94, 0.85);
+    width: 100px;
+    font-size: 15px;
+    font-family: 'Baloo Bhai 2', cursive;
+    padding: 5px 10px;
+    height: 40px;
+    margin: 50px 30px 0 0;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+#member
+{
+    position: absolute;
+    right: 500px;
+}
+
+a
+{
+    font-family: 'Baloo Bhai 2', cursive;
+    color: black;
+}

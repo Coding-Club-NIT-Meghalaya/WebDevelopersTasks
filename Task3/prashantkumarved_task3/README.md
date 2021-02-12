@@ -6,15 +6,13 @@
 
 This will provide a platform for showcasing your ART work. You will be getting an individual section for your art work and you may also get paid for your work if someone finds interesting.
 
-Feel free to contribute. Create an issue, let others know which algorithm or problem solving method you are planning to add. 
-Fork the repo. And make a PR!
+Feel free to contribute. Create an issue, Fork the repo. And make a PR!
 
-
-    |      Name       | Links                               | 
-    | :-------------- | :---------------------------------: | 
-    | Todo List       | https://ved-todolist.netlify.app/   | 
-    | The Art Station | https://theartstation.netlify.app/  | 
-
+| Name of Website   | Reference Links                    |
+| :-----------------| :--------------------------------: |
+| ved-todolist      | https://ved-todolist.netlify.app/  |
+| theartstation     | https://theartstation.netlify.app/ |
+ 
 
 ## Getting Started
 * Fork this repository (Click the Fork button in the top right of this page, click your Profile Image)
@@ -35,6 +33,6 @@ Fork the repo. And make a PR!
 * Create a New Pull Request from your forked repository (Click the New Pull Request button located at the top of your repo)
 * Wait for your PR review and merge approval!
 
-__Star this repository to show your support for namanvats__
+__Star this repository to show your support__
 
 Don't forget to include the comments. Feel free to include additional information about the language you chose in your comments too! 
