@@ -1,0 +1,78 @@
+/* Resetting CSS */
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: rgba(0, 0, 0, 0.95);
+}
+
+/* Adjusting the shape, size and position of the clockBox */
+#clockBox
+{
+    width: 40vw;
+    height: 40vw;
+    border-radius: 20vw;
+    margin: 4.5vw auto;
+    background: linear-gradient(to bottom right, #c31432, #240b36);
+}
+
+#clockOrigin
+{
+    width: 0.8vw;
+    height: 0.8vw;
+    border-radius: 0.4vw;
+    background-color:rgb(153, 138, 118);
+    z-index: 2;
+    position: relative;
+    top: 51.14%;
+    left: 48.8%;
+}
+
+/* Styling all the clock hands */
+.clockHand
+{
+    background-color: black;
+    position: relative;
+    left: 49.7%;
+    transform-origin: bottom;
+}
+
+/* Adjusting the height and position of the hands individually */
+#hrBox
+{
+    width: 0.35vw;
+    height: 8vw;
+    top: 12vw;
+    border-radius: 5vw;
+}
+#minBox
+{
+    width: 0.2vw;
+    height: 11vw;
+    top: 1vw;
+}
+#secBox
+{
+    width: 0.15vw;
+    height: 16vw;
+    top: -15vw;
+}
+
+/* Giving credit to myself :) */
+#creator
+{
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+}
+#creator h2
+{
+    color: #301344;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 3vw;
+}
