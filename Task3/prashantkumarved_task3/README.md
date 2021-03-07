@@ -8,10 +8,11 @@ This will provide a platform for showcasing your ART work. You will be getting a
 
 Feel free to contribute. Create an issue, Fork the repo. And make a PR!
 
-| Name of Website   | Reference Links                    |
-| :-----------------| :--------------------------------: |
-| ved-todolist      | https://ved-todolist.netlify.app/  |
-| theartstation     | https://theartstation.netlify.app/ |
+| Name of Website   | Reference Links                          |
+| :-----------------| :--------------------------------------: |
+| ved-todolist      | https://ved-todolist.netlify.app/        |
+| theartstation     | https://theartstation.netlify.app/       |
+| ved-javaScript    | https://ved-javascriptclock.netlify.app/ |
  
 
 ## Getting Started
