@@ -69,6 +69,14 @@ position:relative;
 } 
 p{
     margin-bottom:90vh;
-    margin-right:70vw;
-    font-size:1.5rem;;
+    margin-right:65vw;
+    font-size: 1.5rem;
+  
+  
+}
+@media(max-width:550px){
+    p{
+        margin-right:0;
+        font-size:1.7rem;
+    }
 }
