@@ -1,19 +1,21 @@
 ### Task 6
 
-#### Js DOM elements
+#### A Guessing Game
 
-This task involves using the concept of Javascript Dom elements to create a sample webpage and deploy it using [Heroku](https://www.heroku.com/).
+This task involves using the concept of Javascript Dom elements to create a simple guessing game and deploy it using [Netlify](https://www.netlify.com/) or GitHub Pages.
 
 
 #### Some references which may be useful:
     
 1. [MDN Web Docs](https://developer.mozilla.org/en-US/)
+2. [Learn Code Online Website](https://courses.learncodeonline.in/learn/Complete-Javascript-course)
 
 
 
 #### How to do it ? 
 
-1. Create a web page with html, css, js files etc. keeping in mind the task name and making sure you are implementing what is being asked (That's something for you to figure out!).
+1. Create a web page containing a guessing game (a sample included) which involves selecting all the right pair of images by flipping them one at a time. Clone this repo and open the [index.html]() file in Task6/sample/ to know how it is to be made. You may even include other new features like points or a timer etc. to make it more interesting. Keep in mind the task name and make sure you are implementing what is being asked.
+
 2. Put them in a folder with your name in the format: ``FirstName_SecondName_Task6``
     For example: ``John_Doe_Task6``
 3. Clone [this repo](https://github.com/Coding-Club-NIT-Meghalaya/WebDevelopersTasks) and add your folder in the Task6 folder and push your changes to the main branch as a pull request.
