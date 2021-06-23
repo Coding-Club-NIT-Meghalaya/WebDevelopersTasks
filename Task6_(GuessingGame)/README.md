@@ -12,7 +12,7 @@ This task involves using the concept of Javascript Dom elements to create a simp
 
 
 ##### Sample
-![DEMO](./sample/task6-sample-game.gif)
+![DEMO](./sample/ezgif-6-058473aa464e.gif)
 
 
 
