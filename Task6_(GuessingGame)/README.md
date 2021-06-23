@@ -1,4 +1,4 @@
-### Task 6
+## Task 6
 
 #### A Guessing Game
 
@@ -13,7 +13,6 @@ This task involves using the concept of Javascript Dom elements to create a simp
 
 ##### Sample
 ![DEMO](./sample/task6-sample-game.gif)
-
 
 
 #### How to do it ? 
@@ -31,3 +30,14 @@ Reach out the admins for any help: [Utkarsh Kumar](https://github.com/utkarshkan
 
 
 Feel free to be creative. Adding or trying out new stuff is always welcome.
+
+Submissions:
+-
+| S.No | Contributors | Website |
+|---|---|---|
+|1.|## ## | [Click here](#)
+|2.|## ## | [Click here](#)
+
+
+
+
