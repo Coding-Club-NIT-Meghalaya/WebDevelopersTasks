@@ -1,7 +1,7 @@
 ***
 # **Task-3** 👩‍💻    
 
-![](https://img.shields.io/badge/contributors-11-<COLOR>)
+![](https://img.shields.io/badge/contributors-12-<COLOR>)
 [![author](https://img.shields.io/badge/author-Anjali4306-blue.svg)](https://github.com/Anjali4306)
 
 
