@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Photo Gallery</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet"href="index.css">
+  <link rel="icon" href="Images\photo-camera.png">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+  <a class="navbar-brand" href="#"><img id="navbrand" src="Images\photo-camera.png"/></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#gallery">Gallery</a>
+      </li> 
+      </ul>
+      <ul class="navbar-nav ml-auto">   
+      <li id="login"class="nav-item mr-auto">
+        <a class="nav-link" href="#gallery">Login</a>
+      </li>    
+      <li id="signup" class="nav-item mr-auto">
+        <a class="nav-link" href="#gallery">Sign Up</a>
+      </li>    
+    </ul>
+  </div>  
+</nav>
+<br><br>
+<div class="jumbotron" id="about">
+  <h1 class="display-3">Image Gallery<img src="Images\photo-camera.png"/></h1>
+  <p class="lead">A hub for aesthetic images</p>
+</div>
+<!--Carousel-->
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+    <li data-target="#demo" data-slide-to="3"></li>
+    <li data-target="#demo" data-slide-to="4"></li>
+    <li data-target="#demo" data-slide-to="5"></li>
+    <li data-target="#demo" data-slide-to="6"></li>
+  </ul>
+  
+  <!-- The slideshow -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="Images\flower.jpg" alt="picture"  width="400" height="500">
+          </div>
+          <div class="carousel-item">
+            <img src="Images\cycle.jpg" alt="Cycle" width="400" height="500">
+          </div>
+          <div class="carousel-item">
+            <img src="Images\way.jpg" alt="way" width="400" height="500">
+          </div>
+          <div class="carousel-item">
+            <img src="Images\elephant.jpg" alt="elephant" width="400" height="500">
+          </div>
+          <div class="carousel-item">
+            <img src="Images\plane.jpg" alt="plane" width="400" height="500">
+          </div>
+          <div class="carousel-item">
+            <img src="Images\car.jpg" alt="car"width="400" height="500">
+          </div>
+          <div class="carousel-item">
+            <img src="Images\map.jpg" alt="map" width="400" height="500">
+          </div>
+          <div class="carousel-item">
+            <img src="Images\building.jpg" alt="building"width="400" height="500">
+          </div>
+       </div>
+      
+      <!-- Left and right controls -->
+      <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+</div>
+<!--Image grid-->
+<div class=" polaroids" id="gallery">
+    <div class="polaroid">
+      <img id="photo"src="images\map.jpg" onclick="openModal();currentSlide(8)" class="hover-shadow"><p>Bon Voyage</p>
+    </div>
+    <div class="polaroid">
+      <img id="photo"src="images\castletop.jpg" onclick="openModal();currentSlide(9)" class="hover-shadow"><p>Wanderlust</p>
+      
+     
+    </div>
+    <div class="polaroid">
+      <img id="photo"src="images\aesthetic ceiling.jpg"onclick="openModal();currentSlide(10)" class="hover-shadow"><p>What's Up ?</p>
+     
+    </div>
+    <div class="polaroid">
+      <img id="photo"src="images\car.jpg"onclick="openModal();currentSlide(7)" class="hover-shadow"><p>Buckle up buttercup</p>
+     
+    </div>
+    <div class="polaroid">
+      <img id="photo" src="images\vintage car.jpg" onclick="openModal();currentSlide(11)" class="hover-shadow"><p>Vroom...</p>
+      
+    </div>
+    <div class="polaroid">
+      <img id="photo"src="images\plane.jpg" onclick="openModal();currentSlide(5)" class="hover-shadow"><p>Up in the clouds!</p>
+     
+    </div>
+    <div class="polaroid">
+      <img id="photo"src="images\scooter italy.jpg" onclick="openModal();currentSlide(12)" class="hover-shadow"><p>Take a ride</p>
+  
+    </div>
+    <div class="polaroid">
+      <img id="photo"src="images\way.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow"><p>Into the wild</p>
+     
+    </div>
+    <div class="polaroid">
+      <img id="photo"src="images\sunflower.jpg" onclick="openModal();currentSlide(13)" class="hover-shadow"><p>You're so golden !</p>
+      
+    </div>
+    <div class="polaroid">
+      <img id="photo"src="images\magazine.jpg" onclick="openModal();currentSlide(14)" class="hover-shadow"><p>Eunoia</p>
+     
+    </div>
+    <div class="polaroid">
+      <img id="photo"src="images\cycle.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow"><p>Cycling away...</p>
+      
+    </div>
+    <div class="polaroid">
+      <img id="photo" src="images\building.jpg" onclick="openModal();currentSlide(6)" class="hover-shadow"><p>Citylights</p>
+      
+    </div>
+    <div class="polaroid">
+      <img id="photo" src="images\elephant.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow"><p>Royal</p>
+      
+    </div>
+    <div class="polaroid">
+      <img id="photo"src="images\flower.jpg" onclick="openModal();currentSlide(15)" class="hover-shadow"><p>Serendipity</p>
+      </div>
+
+  </div>
+  </div>
+  <!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 /14</div>
+      <img src="images/flower.jpg" style="width:400px ; height:500px ; "><br>
+      <p style="color:white">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 14</div>
+      <img src="images/cycle.jpg" style="width:400px ; height:500px ; ">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 14</div>
+      <img src="images/way.jpg" style="width:400px ; height:500px ; "/>
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">4 /14</div>
+      <img src="images/elephant.jpg" style="width:400px ; height:500px ; "/>
+    </div>
+     <div class="mySlides">
+      <div class="numbertext">5 / 14</div>
+      <img src="images/plane.jpg" style="width:400px ; height:500px ; "/>
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">6 / 14</div>
+      <img src="images/building.jpg" style="width:400px ; height:500px ; "/>
+    </div>
+     <div class="mySlides">
+      <div class="numbertext">7 / 14</div>
+      <img src="images/car.jpg" style="width:400px ; height:500px ; "/>
+    </div>
+     <div class="mySlides">
+      <div class="numbertext">8 / 14</div>
+      <img src="images/map.jpg" style="width:400px ; height:500px ; "/>
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">9 / 14</div>
+      <img src="images/castletop.jpg" style="width:400px ; height:500px ; "/>
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">10 / 14</div>
+      <img src="images/aesthetic ceiling.jpg" style="width:400px ; height:500px ; "/>
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">11/ 14</div>
+      <img src="images/vintage car.jpg" style="width:400px ; height:500px ; "/>
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">12 / 14</div>
+      <img src="images/scooter italy.jpg" style="width:400px ; height:500px ; "/>
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">13 / 14</div>
+      <img src="images/sunflower.jpg" style="width:400px ; height:500px ; "/>
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">14/ 14</div>
+      <img src="images/magazine.jpg" style="width:400px ; height:500px ; "/>
+    </div>
+    
+
+
+    <!-- Next/previous controls -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <!-- Caption text 
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+    <!-- Thumbnail image controls 
+    <div class="column">
+      <img class="demo" src="Images/flower.jpg" onclick="currentSlide(1)" alt="Nature">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="Images/way.jpg" onclick="currentSlide(2)" alt="Snow">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="Images/elephant.jpg" onclick="currentSlide(3)" alt="Mountains">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="Images/plane.jpg" onclick="currentSlide(4)" alt="Lights">
+    </div>
+    <div class="column">
+      <img class="demo" src="Images/car.jpg" onclick="currentSlide(4)" alt="Lights">
+    </div>
+    <div class="column">
+      <img class="demo" src="Images/map.jpg" onclick="currentSlide(4)" alt="Lights">
+    </div>-->
+  </div>
+</div>
+  <!-- Footer -->
+<footer class="page-footer font-small" style="background-color:#282828;">
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3" style="color:aliceblue;">© 2021 Copyright:
+    Jahnavi Kashyap
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+<script>
+function openModal() {
+  document.getElementById("myModal").style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById("myModal").style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+
+</body>
+</html>
+

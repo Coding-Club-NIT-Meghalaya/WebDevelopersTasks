@@ -1,0 +1,79 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*
+{
+    background-color: aliceblue;
+} 
+#clock_container
+{
+    background:url(clock.png)no-repeat;
+    background-size: 100%;
+    width:40vw;
+    height:40vw;
+    /* width:400px;
+    height:400px; */
+    background-color:aliceblue;
+    margin:0;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  border:2px solid rgba(199, 199, 199, 0.05);
+  border-radius: 50em;
+  box-shadow: 
+    0 -15px 15px rgba(199, 199, 199, 0.05),
+    inset 0 -15px 15px rgba(255,255,255,0.05),
+    0 15px 15px rgba(102, 101, 101, 0.3),
+    inset 0 15px 15px rgba(148, 147, 147, 0.3);
+}
+#circle
+{
+    position:absolute;
+    background:rgb(58, 58, 58);
+    height:2vw;
+    width:2vw;
+    /* height:15px;
+    width:15px; */
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+    
+
+}
+#hour,#minute,#second
+{
+    position:absolute;
+    background:rgb(58, 58, 58);
+    border-radius:20px;
+    transform-origin: bottom;
+}
+#hour
+{
+    width: 2%;
+    height: 23%;
+    top: 28%;
+    left: 49%;
+   
+    /* display:none;  */
+}
+#minute
+{
+    width: 2%;
+    height: 29%;
+    top: 22%;
+    left: 49%;
+    
+    /* display:none; */
+}
+#second
+{
+    width: 1%;
+    height: 31%;
+    top: 19.5%;
+    left: 49.5%;
+   
+    /* display:none; */
+}

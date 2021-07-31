@@ -26,5 +26,6 @@ Content:
 |9.|Gajula Durga|[Visit website](https://visionary-art-gallery.netlify.app/)
 |10.|Roushan Kumar|[Visit website](https://placestovisit1.netlify.app/)
 |11.|Anjali Kashyap|[Visit website](https://waterfalls.netlify.app/)
+|12.|Jahnavi Kashyap|[Visit website](https://photogallery-jk.netlify.app)
 
 ***
